@@ -37,3 +37,4 @@ npm run dev
 
 - [Typescript](https://www.typescriptlang.org/): strongly typed programming language that builds on JavaScript.
 - [Tsup](https://github.com/egoist/tsup): Tool that compiles code into Javascript for use by other applications. Compatible with older applications. Additionally, it compiles faster than the Typescript tool.
+- [Stitches](https://stitches.dev/): Run CSS in JS

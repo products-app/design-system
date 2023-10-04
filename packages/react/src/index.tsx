@@ -1,5 +1,12 @@
-import { colors } from '@leticiabernardo/common'
+import { styled } from './styles'
+
+const Button = styled('button', {
+  fontFamily: '$default',
+  background: '$base700',
+  padding: '$4',
+  height: '$16',
+})
 
 export function App() {
-  return <h1 style={{ color: colors.base300 }}>Hello World</h1>
+  return <Button>Hello</Button>
 }
