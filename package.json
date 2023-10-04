@@ -1,0 +1,9 @@
+{
+  "name": "design-system",
+  "description": "This repo is dedicated to the design system of the Products App.",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
