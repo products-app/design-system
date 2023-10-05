@@ -2,7 +2,8 @@
 
 This repo is dedicated to the design system of the Products App.
 
-[Link to preview the project](https://products-app.github.io/design-system/)
+[Link to preview the project](https://products-app.github.io/design-system/)<br />
+[Npm Link packages](https://www.npmjs.com/~leticiabernardo)
 
 ### Components
 
