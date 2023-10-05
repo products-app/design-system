@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Card, Text, Checkbox, CheckboxProps } from '@leticiabernardo/react'
+import { Card, Text, Checkbox, CheckboxProps } from '@lebernardo/react'
 
 export default {
   title: 'Components/Checkbox',

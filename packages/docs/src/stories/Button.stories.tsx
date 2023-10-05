@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@leticiabernardo/react'
+import { Button, ButtonProps } from '@lebernardo/react'
 import { Heart } from 'phosphor-react'
 
 const argTypes: object = {

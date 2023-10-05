@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Card, Text, TextArea, TextAreaProps } from '@leticiabernardo/react'
+import { Card, Text, TextArea, TextAreaProps } from '@lebernardo/react'
 
 export default {
   title: 'Components/Text Area',

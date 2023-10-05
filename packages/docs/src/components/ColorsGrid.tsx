@@ -1,4 +1,4 @@
-import { colors } from '@leticiabernardo/common'
+import { colors } from '@lebernardo/common'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

@@ -4,7 +4,7 @@ import {
   fontWeights,
   fonts,
   space,
-} from '@leticiabernardo/common'
+} from '@lebernardo/common'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

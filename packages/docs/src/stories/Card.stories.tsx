@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Card, CardProps } from '@leticiabernardo/react'
+import { Card, CardProps } from '@lebernardo/react'
 
 export default {
   title: 'Components/Card',

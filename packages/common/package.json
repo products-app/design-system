@@ -1,5 +1,5 @@
 {
-  "name": "@leticiabernardo/common",
+  "name": "@lebernardo/common",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@leticiabernardo/eslint-config": "*",
-    "@leticiabernardo/ts-config": "*",
+    "@lebernardo/eslint-config": "*",
+    "@lebernardo/ts-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.2.2"
   }

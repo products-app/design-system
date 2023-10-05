@@ -1,5 +1,5 @@
 {
-  "name": "@leticiabernardo/docs",
+  "name": "@lebernardo/docs",
   "version": "1.0.0",
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -12,10 +12,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@leticiabernardo/common": "*",
-    "@leticiabernardo/eslint-config": "*",
-    "@leticiabernardo/react": "*",
-    "@leticiabernardo/ts-config": "*",
+    "@lebernardo/common": "*",
+    "@lebernardo/eslint-config": "*",
+    "@lebernardo/react": "*",
+    "@lebernardo/ts-config": "*",
     "@storybook/addon-essentials": "^7.4.6",
     "@storybook/addon-interactions": "^7.4.6",
     "@storybook/addon-links": "^7.4.6",
