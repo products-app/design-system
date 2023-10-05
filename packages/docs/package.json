@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "deploy": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "phosphor-react": "^1.4.1",

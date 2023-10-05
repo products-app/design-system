@@ -22,6 +22,13 @@ module.exports = {
 
   docs: {
     autodocs: true
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/products-storybook/'
+    }
+
+    return config
   }
 }
 
