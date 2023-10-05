@@ -12,6 +12,7 @@
   "devDependencies": {
     "@leticiabernardo/react": "*",
     "@leticiabernardo/common": "*",
+    "@leticiabernardo/ts-config": "*",
     "@leticiabernardo/eslint-config": "*",
     "@storybook/addon-essentials": "^7.4.6",
     "@storybook/addon-interactions": "^7.4.6",
