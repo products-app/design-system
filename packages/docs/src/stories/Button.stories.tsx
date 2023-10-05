@@ -32,6 +32,9 @@ const argTypes: object = {
     },
     defaultValue: { summary: 'primary' },
   },
+  onClick: {
+    action: 'click',
+  },
 }
 
 export default {

@@ -7,6 +7,14 @@ export default {
   args: {
     children: 'Testing 1,2,3',
   },
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', 'xl'],
+      control: {
+        type: 'select',
+      },
+    },
+  },
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {
