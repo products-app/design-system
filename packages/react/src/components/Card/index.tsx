@@ -10,3 +10,5 @@ export const Card = styled('div', {
 })
 
 export interface CardProps extends ComponentProps<typeof Card> {}
+
+Card.displayName = 'Card'
