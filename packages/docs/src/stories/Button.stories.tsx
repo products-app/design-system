@@ -1,18 +1,56 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Button, ButtonProps } from '@leticiabernardo/react'
+import { Heart } from 'phosphor-react'
 
-export default {
-  title: 'Button',
-  component: Button,
-  args: {
-    children: 'Enviar',
+const argTypes: object = {
+  children: {
+    control: 'text',
+    type: {
+      summary: 'React.Node',
+    },
   },
-} as Meta<ButtonProps>
-
-export const Primary: StoryObj<ButtonProps> = {
-  args: {
-    size: 'small',
+  disabled: {
+    control: 'boolean',
+    type: {
+      summary: 'boolean',
+    },
+    defaultValue: { summary: 'false' },
+  },
+  size: {
+    options: ['small', 'medium', 'large'],
+    control: { type: 'select' },
+    type: {
+      summary: 'string',
+    },
+    defaultValue: { summary: 'medium' },
+  },
+  variant: {
+    options: ['primary', 'outline'],
+    control: { type: 'radio' },
+    type: {
+      summary: 'string',
+    },
+    defaultValue: { summary: 'primary' },
   },
 }
 
-export const Secondary: StoryObj<ButtonProps> = {}
+export default {
+  title: 'Form/Button',
+  component: Button,
+  args: {
+    children: 'Button',
+  },
+  argTypes,
+} as Meta<ButtonProps>
+
+export const Default: StoryObj<ButtonProps> = {}
+
+export const WithIcon: StoryObj<ButtonProps> = {
+  args: {
+    children: (
+      <>
+        <Heart /> Favorite
+      </>
+    ),
+  },
+}

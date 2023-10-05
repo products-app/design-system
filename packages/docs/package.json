@@ -6,14 +6,15 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@leticiabernardo/react": "*",
     "@leticiabernardo/common": "*",
-    "@leticiabernardo/ts-config": "*",
     "@leticiabernardo/eslint-config": "*",
+    "@leticiabernardo/react": "*",
+    "@leticiabernardo/ts-config": "*",
     "@storybook/addon-essentials": "^7.4.6",
     "@storybook/addon-interactions": "^7.4.6",
     "@storybook/addon-links": "^7.4.6",
