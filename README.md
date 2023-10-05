@@ -45,3 +45,4 @@ npm run dev
 - [Stitches](https://stitches.dev/): Run CSS in JS.
 - [Vite-Storybook](https://github.com/storybookjs/builder-vite): a frontend workshop for building UI components and pages in isolation.
 - [Storybook Deployer](https://www.npmjs.com/package/@storybook/storybook-deployer): deploy storybook
+- [Changeset](https://github.com/changesets/action): publish in npm
