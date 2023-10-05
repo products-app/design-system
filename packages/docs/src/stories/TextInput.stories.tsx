@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Card, Text, TextInput, TextInputProps } from '@leticiabernardo/react'
 
 export default {
-  title: 'Form/Text Input',
+  title: 'Components/Text Input',
   component: TextInput,
   args: {},
   decorators: [

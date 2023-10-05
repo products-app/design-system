@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Card, CardProps } from '@leticiabernardo/react'
 
 export default {
-  title: 'Surfaces/Card',
+  title: 'Components/Card',
   component: Card,
   args: {
     children: <>Testando</>,

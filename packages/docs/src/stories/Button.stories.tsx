@@ -35,7 +35,7 @@ const argTypes: object = {
 }
 
 export default {
-  title: 'Form/Button',
+  title: 'Components/Button',
   component: Button,
   args: {
     children: 'Button',
