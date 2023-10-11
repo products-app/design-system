@@ -38,11 +38,14 @@
 ## About The Project
 
 The project consists of 3 sub-projects: design system, api and front-end.<br />
-This project is the _design system_ .<br />
-is responsible for creating a reusable design system in which components and styles can be implemented following a design pattern.<br />
+This project is the **Design System:** responsible for creating a reusable design system in which components and styles can be implemented following a design pattern.<br />
 
 [Link to preview the project](https://products-app.github.io/design-system/)<br />
 [Npm Link packages](https://www.npmjs.com/~leticiabernardo)
+
+<p align="center">
+<img width="100%" alt="Screen Shot 2023-10-11 at 10 18 59" src="https://github.com/products-app/design-system/assets/13439423/83d04b89-b5e0-4472-999e-63d8cc0b543d">
+</p>
 
 ### Features
 
@@ -139,6 +142,26 @@ npm run version-packages
 Submit the new version in npm
 ```
 npm run release
+```
+
+## How to use in your frontend app
+
+1 - Install the package:
+```
+npm i @lebernardo/react --save-dev
+```
+
+2 - Usage example:
+```
+import { Button } from '@lebernardo/react';
+
+const App = () => {
+  return (
+    <Button>Hello World</Button>
+  )
+}
+
+export default App;
 ```
 
 ## Installed Packages
