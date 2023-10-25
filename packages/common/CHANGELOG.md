@@ -1,5 +1,11 @@
 # @lebernardo/common
 
+## 5.0.0
+
+### Major Changes
+
+- example
+
 ## 4.0.0
 
 ### Major Changes
